@@ -6,8 +6,8 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What city is the financial capital of the world?',
+        answer: 'New York City',
     },
     {
         points: 200,
@@ -18,9 +18,9 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 300,
-        question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+        question: 'What is this cartoon\'s name?',
+        imgSrc: "cartoon.jpg",
+        answer: '熊出没',
     },
     {
         points: 400,
@@ -40,49 +40,47 @@ const presentQuestions: Question[] =
         },
         {
             points: 100,
-            question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
+            question: 'Which country has the second-highest GDP in the world?',
+            answer: 'China',
         },
         {
             points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'What programming language is this code?',
+            imgSrc: "/programming_language.png",
+            answer: 'C++',
         },
         {
             points: 300,
             question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+                '',
             imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+                "",
+            answer: '',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            '',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+            "",
+        answer: '',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: 'Past',
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Present`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Future",
         questions: futureQuestions
     }
 ];
