@@ -12,20 +12,20 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What is the biggest tennis stadium in the world?',
+        answer: 'Arthur Ashe Stadium',
     },
     {
         points: 300,
-        question: 'What is this cartoon\'s name?',
-        imgSrc: "cartoon.jpg",
-        answer: '熊出没',
+        question: 'What day was Lunar New Year in 2011?',
+        imgSrc: "/day.png",
+        answer: 'February 3',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What is this cartoon\'s name?',
+        imgSrc: '/cartoon.jpg',
+        answer: 'Boonie Bears',
     }
 ]);
 
@@ -33,10 +33,9 @@ const presentQuestions: Question[] =
     sortQuestions([
         {
             points: 400,
-            question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
+            question: 
+            'What book are the Trisolarans from?',
+            answer: 'Three Body Problem',
         },
         {
             points: 100,
@@ -45,27 +44,21 @@ const presentQuestions: Question[] =
         },
         {
             points: 200,
-            question: 'What programming language is this code?',
-            imgSrc: "/programming_language.png",
-            answer: 'C++',
+            question: 'Which instrument is both a string and percussion instrument?',
+            answer: 'Piano',
         },
         {
             points: 300,
-            question:
-                '',
-            imgSrc:
-                "",
-            answer: '',
+            question: 'What programming language is this code?',
+            imgSrc: "/programming_language.png",
+            answer: 'C++',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question:
-            '',
-        imgSrc:
-            "",
-        answer: '',
+        question: 'What city is the tallest building in the world in?',
+        answer: 'Dubai',
     }
 ]);
 
